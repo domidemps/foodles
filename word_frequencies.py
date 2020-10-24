@@ -58,5 +58,5 @@ if __name__ == '__main__':
             raise ValueError
     except ValueError:
         print('Invalid input - n should be a positive integer')
-
-    print(get_words_frequencies(args.sentence, args.number))
+    else:
+        print(get_words_frequencies(args.sentence, n))
